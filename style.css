@@ -1,5 +1,7 @@
 #title{
     margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
     width: 500px;
     text-align: center;
     background-color: rgb(0, 255, 102);
@@ -45,7 +47,44 @@ img{
     border-width: 2px;
     text-indent: 20px;
     border-radius: 30px;
-    width: 400px;
+    margin-left: 292.5px;
+    margin-right: 292.5px;
+    margin-bottom: 20px;
+}
+
+#formation{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-indent: 20px;
+    border-radius: 30px;
+    margin-left: 292.5px;
+    margin-right: 292.5px;
+    margin-bottom: 20px;
+}
+
+
+#competence{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-indent: 20px;
+    border-radius: 30px;
+    margin-left: 292.5px;
+    margin-right: 292.5px;
+    margin-bottom: 20px;
+}
+
+#loisir{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-indent: 20px;
+    border-radius: 30px;
+    margin-left: 292.5px;
+    margin-right: 292.5px;
+    margin-bottom: 20px;
+
 }
 
 .bloc{
@@ -68,6 +107,7 @@ img{
     border-radius: 30px;
     width: 1400px;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 .description{
@@ -76,5 +116,11 @@ img{
 }
 
 a{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 150%;
     color:  rgb(255, 0, 128);
 }
