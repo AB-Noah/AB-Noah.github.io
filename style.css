@@ -1,5 +1,22 @@
+#title{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    background-color: rgb(0, 255, 102);
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;    
+    border-radius: 30px;
+}
+
 a{
-    color:  rgb(255, 0, 128);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#name{
+    font-weight: bolder;
+    font-size: 140%;
 }
 
 #role{
@@ -8,37 +25,21 @@ a{
     color: brown;
 }
 
-#name{
-    font-weight: bolder;
-    font-size: 140%;
-}
-
 #description{
     font-size: 0.45cm;
 }
 
-#title{
-    margin: 0 auto;
-    width: 500px;
-    text-align: center;
-    background-color: rgb(0, 255, 102);
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;    
-}
-
-b{
-    font-size: 30px;
-}
-
-
 img{
     border-color: black;
     border-style: solid;
+    border-radius: 20px;
     border-width: 1px;
     margin: auto;
+    float: left;
     width: 120px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+
 }
 
 .bloc{
@@ -46,5 +47,28 @@ img{
     border-style: solid;
     border-width: 2px;
     text-indent: 20px;
+    border-radius: 30px;
 }
 
+.strong{
+    font-weight: bold;
+}
+
+#info{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-indent: 20px;
+    border-radius: 30px;
+    width: 1400px;
+    margin: auto;
+}
+
+.description{
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+b{
+    color:  rgb(255, 0, 128);
+}
