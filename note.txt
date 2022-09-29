@@ -23,6 +23,7 @@ HTML:
 
 <a href="http://exemple.com">Exemple</a>   'Exemple' qui renvoie sur le lien http://exemple.com 
 <a href="mailto:exemple@gmail.com">Exemple</a>	'Exemple' qui renvoie sur le mail 'exemple@gmail.com'
+<a href="tel:+687xxxxxx">+687 xxxxxx</a> '+687 xxxxxx' appel le numéro
 
 créer une classe HTML à mettre dans une balise, class=" ", pareille pour attribuer un id pour une balise HTML id=" ".
 
@@ -30,4 +31,12 @@ CSS :
 appeler par un id avec un # et l'id, tout ça dans le fichier CSS.
 appeler par une classe avec un . et le nom de la classe, tout ça dans le fichier CSS.
 appeler par une balise il faut juste mettre le nom de la balise.
+
+possibiliter de naviguer plus précisement, 
+   ex: <ul>
+         <li>1</li>
+         <li>2</li>
+         <li>3</li>
+      </ul>
+
 
