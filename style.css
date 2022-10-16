@@ -12,7 +12,6 @@
     font-weight: bold;
     animation: color 10s ease infinite;
 }
-
 /*Animation de color*/
 @keyframes color {
     0%{
@@ -42,19 +41,41 @@
     }
 }
 
+#info{
+    width: 1400px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.bloc{
+    width: 1250px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
 #name{
     font-weight: bolder;
     font-size: 140%;
 }
-
 #role{
     font-style: italic;
     font-size: 100%;
     color: brown;
 }
-
 #description{
     font-size: 0.45cm;
+
 }
 
 #pdp{
@@ -65,8 +86,11 @@
     margin: auto;
     float: left;
     width: 120px;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin: 10px;
+}
+
+#coordonnees{
+    margin-top: 50px;
 }
 
 #exp{
@@ -87,7 +111,16 @@
     position: absolute;
 }
 
-@keyframes infoFrm{
+#brevet{
+    padding: 5px;
+}
+
+#bac{
+    padding: 5px;
+}
+
+#titrePro{
+    padding: 5px;
     
 }
 
@@ -108,41 +141,16 @@
     margin-left: 177px;
 }
 
-.bloc{
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    text-indent: 20px;
-    border-radius: 30px;
-    margin-left: 292.5px;
-    margin-right: 292.5px;
-    margin-bottom: 20px;
 
-}
 
 .strong{
     font-weight: bold;
 }
-
-#info{
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    text-indent: 20px;
-    border-radius: 30px;
-    width: 1400px;
-    margin: auto;
-    margin-bottom: 25px;
-}
-
 .description{
-    margin-left: 2px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 #infoPlus{
-    margin-right: 292.5px;
-    margin-left: 292.5px;
     text-align: center;
     font-size: 150%;
     color:  rgb(255, 0, 128);
@@ -155,4 +163,7 @@
 body{
     background-color: #edf2f4;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
