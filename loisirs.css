@@ -231,21 +231,21 @@ body {
 }
 
 /*Glowing effect couleur des cartes*/
-#diamonds::before,
-#diamonds::after {
-  background: linear-gradient(45deg, #fcb0f3, #3d05dd);
-}
-#clubs::before,
-#clubs::after {
-  background: linear-gradient(45deg, #ff1b6b, #45caff);
-}
-#spades::before,
-#spades::after {
-  background: linear-gradient(45deg, #95f9c3, #0b3866);
-}
-#hearts::before,
-#hearts::after {
+#basket::before,
+#basket::after {
   background: linear-gradient(45deg, #aefb2a, #57ebde);
+}
+#sport::before,
+#sport::after {
+  background: linear-gradient(180deg, #aefb2a, #57ebde);
+}
+#jeux::before,
+#jeux::after {
+  background: linear-gradient(360deg, #aefb2a, #57ebde);
+}
+#info::before,
+#info::after {
+  background: linear-gradient(225deg, #aefb2a, #57ebde);
 }
 
 .container .card span {
@@ -277,13 +277,15 @@ body {
   font-size: 50px;
   font-family: "Caveat", cursive;
 }
-.container .card .details p {
-  font-size: 30px;
-  margin-top: 60px;
-  margin-bottom: 10px;
-  text-align: center;
+.container .card .details ul {
+  list-style: none;
+  font-size: 20px;
   line-height: 30px;
   font-family: 'Indie Flower', cursive;
+}
+.container .card .details h2.info {
+  margin-bottom: 13px;
+  padding: 15px;
 }
 .container .card .details a {
   padding: 5px;
@@ -291,4 +293,18 @@ body {
   font-family: "Teko", sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+.container .card .details img {
+  width: 130px;
+  margin: 40px 75px 0;
+}
+.container .card .details img.jeux {
+  position: relative;
+  width: 200px;
+  margin: 45px 75px 0;
+}
+.container .card .details ul ion-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: black;
 }

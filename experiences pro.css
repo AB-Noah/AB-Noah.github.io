@@ -231,23 +231,14 @@ body {
 }
 
 /*Glowing effect couleur des cartes*/
-#diamonds::before,
-#diamonds::after {
+#cht::before,
+#cht::after {
+  background: linear-gradient(235deg, #fcb0f3, #3d05dd);
+}
+#total::before,
+#total::after {
   background: linear-gradient(45deg, #fcb0f3, #3d05dd);
 }
-#clubs::before,
-#clubs::after {
-  background: linear-gradient(45deg, #ff1b6b, #45caff);
-}
-#spades::before,
-#spades::after {
-  background: linear-gradient(45deg, #95f9c3, #0b3866);
-}
-#hearts::before,
-#hearts::after {
-  background: linear-gradient(45deg, #aefb2a, #57ebde);
-}
-
 .container .card span {
   position: absolute;
   top: 6px;
@@ -272,23 +263,20 @@ body {
   z-index: 10;
   padding: 20px 40px;
 }
+.container .card .details img {
+  width: 150px;
+  height: 150px;
+}
 .container .card .details h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-family: "Caveat", cursive;
 }
 .container .card .details p {
   font-size: 30px;
-  margin-top: 60px;
-  margin-bottom: 10px;
+  margin-top: 70px;
+  margin-bottom: 55px;
   text-align: center;
   line-height: 30px;
   font-family: 'Indie Flower', cursive;
-}
-.container .card .details a {
-  padding: 5px;
-  margin: 40px 75px 0;
-  font-family: "Teko", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
 }

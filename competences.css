@@ -233,11 +233,11 @@ body {
 /*Glowing effect couleur des cartes*/
 #diamonds::before,
 #diamonds::after {
-  background: linear-gradient(45deg, #fcb0f3, #3d05dd);
+  background: linear-gradient(45deg, #95f9c3, #0b3866);
 }
 #clubs::before,
 #clubs::after {
-  background: linear-gradient(45deg, #ff1b6b, #45caff);
+  background: linear-gradient(45deg, #95f9c3, #0b3866);
 }
 #spades::before,
 #spades::after {
@@ -245,7 +245,7 @@ body {
 }
 #hearts::before,
 #hearts::after {
-  background: linear-gradient(45deg, #aefb2a, #57ebde);
+  background: linear-gradient(45deg, #95f9c3, #0b3866);
 }
 
 .container .card span {
@@ -277,11 +277,11 @@ body {
   font-size: 50px;
   font-family: "Caveat", cursive;
 }
-.container .card .details p {
+.container .card .details ul {
   font-size: 30px;
   margin-top: 60px;
   margin-bottom: 10px;
-  text-align: center;
+
   line-height: 30px;
   font-family: 'Indie Flower', cursive;
 }
@@ -291,4 +291,12 @@ body {
   font-family: "Teko", sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+.container .card .details img {
+  width: 250px;
+  display: block;
+  margin: 15px 79px;
+}
+#equipe {
+  font-size: 47px;
 }
