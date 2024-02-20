@@ -235,8 +235,8 @@ body {
 #basket::after {
   background: linear-gradient(45deg, #aefb2a, #57ebde);
 }
-#sport::before,
-#sport::after {
+#boxe::before,
+#boxe::after {
   background: linear-gradient(180deg, #aefb2a, #57ebde);
 }
 #jeux::before,
