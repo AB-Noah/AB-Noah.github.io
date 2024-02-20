@@ -186,7 +186,7 @@ body {
   color: #0a64c2;
 }
 
-/*Carte de poker*/
+/*Carte*/
 .container {
   position: relative;
   display: flex;
@@ -239,6 +239,15 @@ body {
 #total::after {
   background: linear-gradient(45deg, #fcb0f3, #3d05dd);
 }
+#cci::before,
+#cci::after {
+  background: linear-gradient(235deg, #fcb0f3, #3d05dd);
+}
+#ppzf::before,
+#ppzf::after {
+  background: linear-gradient(45deg, #fcb0f3, #3d05dd);
+}
+
 .container .card span {
   position: absolute;
   top: 6px;
@@ -264,8 +273,11 @@ body {
   padding: 20px 40px;
 }
 .container .card .details img {
-  width: 150px;
+  width: 215px;
   height: 150px;
+}
+.container #ppzf .details img {
+  width: 150px;
 }
 .container .card .details h2 {
   text-align: center;
@@ -279,4 +291,7 @@ body {
   text-align: center;
   line-height: 30px;
   font-family: 'Indie Flower', cursive;
+}
+#cci .details p {
+  font-size: 25px;
 }
