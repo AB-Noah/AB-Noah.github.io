@@ -239,8 +239,8 @@ body {
 #bac::after {
   background: linear-gradient(180deg, #ff1b6b, #45caff);
 }
-#dev::before,
-#dev::after {
+#PSC1::before,
+#PSC1::after {
   background: linear-gradient(315deg, #ff1b6b, #45caff);
 }
 
